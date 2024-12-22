@@ -2,7 +2,7 @@
 document.getElementById("startButton").addEventListener("click", function() {
     const video = document.getElementById("video");
     const alertBox = document.getElementById("alertBox");
-
+//#hmpmanish
     // Access webcam
     navigator.mediaDevices.getUserMedia({ video: true })
         .then(function(stream) {
@@ -23,7 +23,7 @@ document.getElementById("startButton").addEventListener("click", function() {
             }, 3000);
         }
     };
-
+//#hmpmanish
     // Send sensitivity value to the server on slider change
     const sensitivitySlider = document.getElementById('sensitivity');
     sensitivitySlider.addEventListener('input', function() {
